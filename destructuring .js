@@ -31,3 +31,9 @@ let x = 6;
 [x, z] = [z, x];
 
 console.log(x, z);
+
+let [key, value] = ["b", 2];
+
+let object = { key: value };
+
+console.log(object);
