@@ -24,3 +24,10 @@ let array = [132, 142, 125, [234, 345], 546, 756, 7, 8];
 const [, , , [a, b]] = array;
 
 console.log(a, b);
+
+let z = 5;
+let x = 6;
+
+[x, z] = [z, x];
+
+console.log(x, z);
